@@ -1,0 +1,49 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:  400px 540px 940px ;
+    grid-template-rows: 260px 550px 135px;
+    grid-template-areas: 
+    'enc enc enc'
+    'fecha con con'
+    'pie pie pie'
+    
+    ;
+}
+header{
+    background-color: burlywood;
+    grid-area: enc;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+section{
+    background-color: rgb(224, 126, 81);
+    grid-area: fecha;
+}
+article{
+    background-color: rgb(194, 110, 50);
+    grid-area: con;
+    text-align: center;
+}
+.inf{
+    width: 400px;
+    height: 550px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(255, 219, 219);
+    grid-area: pie;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.tam{
+    width: 40%;
+    height: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

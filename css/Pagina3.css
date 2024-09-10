@@ -1,0 +1,54 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:  1880px ;
+    grid-template-rows: 250px 560px 130px;
+    grid-template-areas: 
+    'enc'
+    'con'
+    'pie'
+    ;
+}
+.enc{
+    background-color: burlywood;
+    grid-area: enc;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.con{
+    background-color: rgb(224, 126, 81);
+    grid-area: con;
+}
+article{
+    background-color: rgb(194, 110, 50);
+    grid-area: con;
+    text-align: center;
+}
+.pie{
+    background-color: rgb(255, 219, 219);
+    grid-area: pie;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces{
+    text-align: center;
+}
+.img2{
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,48 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 950px 950px ;
+    grid-template-rows: 250px 50px 490px 150px ;
+    grid-template-areas:  
+    'enc enc'
+    'asi asi'
+    'con con2'
+    'pie pie'
+    ;
+}
+header{
+    background-color: burlywood;
+    grid-area: enc;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+aside{
+    text-align: center;
+    grid-area: asi;
+    
+}
+section{
+    background-color: rgb(224, 126, 81);
+    grid-area: con;
+}
+article{
+    background-color: rgb(194, 110, 50);
+    grid-area: con2;
+}
+footer{
+    background-color: rgb(255, 219, 219);
+    grid-area: pie;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.inf{
+    width: 350px;
+    height: 450px;
+}
